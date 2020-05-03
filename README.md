@@ -36,3 +36,11 @@ pipenv shell # 仮想環境に入る
 python -m main.py
 # main.pyと同じ場所にある.xlsxファイルのCSVが生成される
 ```
+
+## exe化
+Pyinstallerでexe化しています。  
+下記のコマンドを打つ事でbuildできます。  
+pipenv便利。  
+```
+pipenv run build
+```
