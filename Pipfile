@@ -13,3 +13,6 @@ pyinstaller = "*"
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+build = "Pyinstaller src/csv-masher/main.py --onefile --noconsole --clean  -n csv-masher"
