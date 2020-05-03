@@ -9,6 +9,7 @@ flake8 = "*"
 
 [packages]
 openpyxl = "*"
+pyinstaller = "*"
 
 [requires]
 python_version = "3.8"
