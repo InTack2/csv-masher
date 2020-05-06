@@ -9,8 +9,11 @@ CSVファイルの生成が非常に面倒なので、
 ## ・exe版
 csv-masher.exeを変換したいエクセルの所にコピー。  
 ダブルクリックで実行するととcsvが生成されます。  
-csvを生成する等の環境はノーコーディング環境が多いので、  
+csvを生成する等の環境はノーコ ーディング環境が多いので、  
 そのまま渡せる様にするイメージです。
+
+releaseからzipファイルをダウンロード、解凍してお使いください。
+https://github.com/InTack2/csv-masher/releases
 
 
 ## ・python版
@@ -38,8 +41,14 @@ python -m main.py
 ```
 
 ## exe化
-Pyinstallerでexe化しています。  
-下記のコマンドを打つ事でbuildできます。  
+Pyinstallerでexe化しておりますが、  
+pipenvのコマンドを設定する事で短い文で実行する事ができます。  
+```pipfile
+
+[scripts]
+build = "Pyinstaller src/csv-masher/main.py --onefile --noconsole --clean  -n csv-masher"
+```
+こうすることで下記のコマンドのみでbuildできます。  
 pipenv便利。  
 ```
 pipenv run build
