@@ -12,7 +12,7 @@ csv-masher.exeを変換したいエクセルの所にコピー。
 csvを生成する等の環境はノーコ ーディング環境が多いので、  
 そのまま渡せる様にするイメージです。
 
-releaseからzipファイルをダウンロード、解凍してお使いください。
+releaseからzipファイルをダウンロード、解凍してお使いください。  
 https://github.com/InTack2/csv-masher/releases
 
 
