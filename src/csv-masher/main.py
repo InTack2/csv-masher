@@ -14,8 +14,8 @@ import openpyxl
 if hasattr(sys, "frozen"):
     SEARCH_FILE_DIRECTORY = os.path.dirname(sys.argv[0])
 
+# ファイル実行時
 else:
-    # TODO:後からカレントDIRECTORYへ
     SCRIPT_PATH = os.path.dirname(__file__)  # "..\\src\\csv-masher"
     SRC_PATH = os.path.dirname(SCRIPT_PATH)  # "..\\src"
     SEARCH_FILE_DIRECTORY = os.path.join(SRC_PATH, "sample_file")  # "..\\src\\Sample"
